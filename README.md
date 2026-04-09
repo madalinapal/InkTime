@@ -20,3 +20,58 @@ This is an open-hardware wearable based on the nRF52840 microcontroller. It is f
 * [MAX17048](https://www.analog.com/en/products/max17048.html) fuel gauge (ultra-low-power single-cell Li-ion battery fuel gauge IC, I2C interface, uses ModelGauge algorithm for accurate state-of-charge estimation, no external sense resistor required, optimized for wearable and portable devices)
 
 ![Smartwatch exploded view](images/smartwatch_exploded_view.png)
+
+## nRF52840 Pin Mapping
+
+| Pin nRF52840 | Signal      | Component | Interface |
+|-------------|------------|------------|----------|
+| P0.00/XL1   | XL1        | Crystal X2 (32.768kHz) | XTAL |
+| P0.01/XL2   | XL2        | Crystal X2 (32.768kHz) | XTAL |
+| P0.05/AIN3  | EPD_CS     | E-Paper (J1 FPC) | SPI CS |
+| P0.06       | SDA        | BMA423, BQ25180, MAX17048, DRV2605 | I2C SDA |
+| P0.07       | SCL        | BMA423, BQ25180, MAX17048, DRV2605 | I2C SCL |
+| P0.08       | IMU_INT1   | BMA423 | GPIO Input |
+| P1.08       | IMU_INT2   | BMA423 | GPIO Input |
+| P0.11       | PMIC_INT   | BQ25180 | GPIO Input |
+| P0.12       | HAPTIC_EN  | DRV2605 | GPIO |
+| VBUS        | VBUS       | USB-C (J4) | Power |
+| D-          | D-         | USB-C (J4) / USBLC6 | USB |
+| D+          | D+         | USB-C (J4) / USBLC6 | USB |
+| P0.13       | SW_UP      | Buton Up | GPIO Input |
+| P0.14       | SW_ENT     | Buton Enter | GPIO Input |
+| P0.15       | EPD_DC     | E-Paper (J1 FPC) | SPI DC |
+| P0.16       | EPD_RST    | E-Paper (J1 FPC) | GPIO |
+| P0.17       | EPD_BUSY   | E-Paper (J1 FPC) | GPIO Input |
+| P0.18/RESET | RESET      | TC2030-IDC | SWD/GPIO |
+| SWDCLK      | SWDCLK     | TC2030-IDC | SWD |
+| SWDIO       | SWDIO      | TC2030-IDC | SWD |
+| P1.02       | SW_DN      | Buton Down | GPIO Input |
+| P0.10/NFC2  | ALERT      | MAX17048 | GPIO Input |
+| ANT         | RF         | Antena 2450AT18B100E | RF |
+| P0.02/AIN0  | SCK        | E-Paper (J1 FPC) | SPI SCK |
+| P0.03/AIN1  | MOSI       | E-Paper (J1 FPC) | SPI MOSI |
+
+
+## Repository contens
+- schematic.sch → Schematic design file  
+- board.brd → PCB layout file  
+
+### Manufacturing
+- gerbers.zip → PCB manufacturing files (Gerber + drill files)  
+- bom.csv / bom.xlsx → Bill of Materials  
+- pick_and_place.cpl → Component placement file 
+
+### Mechanical
+- device_exploded.step → Full 3D exploded view (PCB + battery + display + enclosure)  
+- fusion_project.f3d → Native Fusion 360 design file  
+
+### Images
+- pcb_render.png → PCB render images  
+- assembly_render.png → Full device renders  
+- enclosure_fit.png → Fit inside enclosure visualization  
+
+### License
+- LICENSE → Open-source license file 
+
+### Documentation
+- README.md → Main project documentation
