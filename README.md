@@ -59,18 +59,24 @@ This is an open-hardware wearable based on the nRF52840 microcontroller. It is f
 - board.brd → PCB layout file  
 
 ### Manufacturing
-- gerbers.zip → PCB manufacturing files (Gerber + drill files)  
+- GerberFiles.zip → PCB manufacturing files (Gerber + drill files)  
 - bom.csv / bom.xlsx → Bill of Materials  
-- pick_and_place.cpl → Component placement file 
+- pick&place.cpl → Component placement file 
 
 ### Mechanical
-- device_exploded.step → Full 3D exploded view (PCB + battery + display + enclosure)  
-- fusion_project.f3d → Native Fusion 360 design file  
+- smartwatch_exploded_view.stp → Full 3D exploded view (PCB + battery + display + enclosure)  
+- smartwatch.stp → Full 3D view 
 
 ### Images
-- pcb_render.png → PCB render images  
-- assembly_render.png → Full device renders  
-- enclosure_fit.png → Fit inside enclosure visualization  
+- pcb_2d.png 
+- pcb_3d_top_view.png
+- pcb_3d_bottom_view.png
+- pcb_3d_side_view
+- block_diagram.jpg
+- smartwatch_final.png
+- smartwatch_side_view1.png
+- smartwatch_side_view2.png
+- smartwatch_exploded_view.png
 
 ### License
 - LICENSE → Open-source license file 
