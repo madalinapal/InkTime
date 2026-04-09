@@ -51,6 +51,8 @@ This is an open-hardware wearable based on the nRF52840 microcontroller. It is f
 | P0.02/AIN0  | SCK        | E-Paper (J1 FPC) | SPI SCK |
 | P0.03/AIN1  | MOSI       | E-Paper (J1 FPC) | SPI MOSI |
 
+## Design Log
+
 
 ## Repository contens
 - schematic.sch → Schematic design file  
