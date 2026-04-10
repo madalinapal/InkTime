@@ -25,27 +25,28 @@ This is an open-hardware wearable based on the nRF52840 microcontroller. It is f
 
 The table below summarizes the main components used in the project. Passive components are grouped by type and package to improve readability.
 
-| Component | Description | Qty | Manufacturer | Part Number | Datasheet | JLCPCB / LCSC |
+| Component | Description | Qty | Manufacturer | Part Number | Datasheet | 
 |----------|------------|-----|--------------|-------------|-----------|----------------|
-| nRF52840 | BLE Microcontroller | 1 | Nordic Semiconductor | nRF52840 | [Datasheet](https://files.seeedstudio.com/wiki/XIAO-BLE/Nano_BLE_MCU-nRF52840_PS_v1.1.pdf) | - |
-| BMA423 | 3-axis accelerometer (IMU) | 1 | Bosch | BMA423 | [Datasheet](https://watchy.sqfmi.com/assets/files/BST-BMA423-DS000-1509600-950150f51058597a6234dd3eaafbb1f0.pdf) | - |
-| BQ25180 | Battery charger / PMIC | 1 | Texas Instruments | BQ25180 | [Datasheet](https://www.ti.com/product/BQ25180) | - |
-| DRV2605L | Haptic driver | 1 | Texas Instruments | DRV2605L | [Datasheet](https://www.ti.com/product/DRV2605L) | - |
-| MAX17048 | Fuel gauge | 1 | Analog Devices | MAX17048G+T10 | [Datasheet](https://www.analog.com/en/products/max17048.html) | - |
-| RT6160 | Buck-boost converter | 1 | Richtek | RT6160AWSC | [Datasheet](https://www.mouser.com/datasheet/2/1458/DS6160A_02-3104604.pdf) | - |
-| 2450AT18B100E | 2.4GHz chip antenna | 1 | Johanson Technology | 2450AT18B100E | Datasheet | - |
-| TC2030-IDC | Programming connector | 1 | Tag-Connect | TC2030-IDC | Datasheet | - |
-| USB-C Connector | Power & data interface | 1 | Kinghelm | KH-TYPE-C-16P | Datasheet | - |
-| FPC Connector | E-paper display connector | 1 | Molex | 503480-2400 | Datasheet | - |
-| Push Buttons | Tactile switches | 3 | Panasonic | EVP-AKE31A | Datasheet | - |
-| Inductors | Power inductors (various values) | Multiple | TDK / Würth | Various | Datasheet | - |
-| MOSFETs | Power switching | 2 | Vishay / Diodes Inc. | SI1308EDL / DMG2305UX | Datasheet | - |
-| Diodes | Schottky diodes | 3 | ON Semiconductor | MBR0530 | Datasheet | - |
-| ESD Protection | USB protection | 1 | STMicroelectronics | USBLC6-2SC6 | Datasheet | - |
-| Crystals | 32MHz & 32.768kHz | 2 | - | - | Datasheet | - |
-| Capacitors | 0201 / 0402 (100nF, 1uF, etc.) | Multiple | Murata | Various | Datasheet | - |
-| Resistors | 0201 resistors | Multiple | Panasonic | Various | Datasheet | - |
-| Test Pads | Debug & measurement points | 14 | - | - | - | - |
+| nRF52840 | BLE Microcontroller | 1 | Nordic Semiconductor | nRF52840 | [Datasheet](https://files.seeedstudio.com/wiki/XIAO-BLE/Nano_BLE_MCU-nRF52840_PS_v1.1.pdf) | 
+| BMA423 | 3-axis accelerometer (IMU) | 1 | Bosch | BMA423 | [Datasheet](https://watchy.sqfmi.com/assets/files/BST-BMA423-DS000-1509600-950150f51058597a6234dd3eaafbb1f0.pdf) |
+| BQ25180 | Battery charger / PMIC | 1 | Texas Instruments | BQ25180 | [Datasheet](https://www.ti.com/product/BQ25180) |
+| DRV2605L | Haptic driver | 1 | Texas Instruments | DRV2605L | [Datasheet](https://www.ti.com/product/DRV2605L) |
+| MAX17048 | Fuel gauge | 1 | Analog Devices | MAX17048G+T10 | [Datasheet](https://www.analog.com/en/products/max17048.html) | 
+| RT6160 | Buck-boost converter | 1 | Richtek | RT6160AWSC | [Datasheet](https://www.mouser.com/datasheet/2/1458/DS6160A_02-3104604.pdf) | 
+| 2450AT18B100E | 2.4GHz chip antenna | 1 | Johanson Technology | 2450AT18B100E | [Datasheet](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588940948130156544) |
+| TC2030-IDC | Programming connector | 1 | Tag-Connect | TC2030-IDC | [Datasheet](https://www.lcsc.com/datasheet/C5444772.pdf) | 
+| USB-C Connector | Power & data interface | 1 | Kinghelm | KH-TYPE-C-16P | [Datasheet](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905154556923904) | 
+| FPC Connector | E-paper display connector | 1 | Molex | 503480-2400 | [Datasheet](https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/503/503480/5034802400_sd.pdf?inline\) | 
+| Push Buttons | Tactile switches | 3 | Panasonic | EVP-AKE31A | [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2301111010_PANASONIC-EVPAKE31A_C569760.pdf) | 
+| Inductors | Power inductors (various values) | Multiple | TDK / Würth | Various | [Datasheet]() | 
+| MOSFETs | Power switching | 2 | Vishay / Diodes Inc. | SI1308EDL / DMG2305UX | [Datasheet](https://www.lcsc.com/datasheet/C469327.pdf) | 
+| Diodes | Schottky diodes | 3 | ON Semiconductor | MBR0530 | [Datasheet](https://www.lcsc.com/datasheet/C77336.pdf) | 
+| ESD Protection | USB protection | 1 | STMicroelectronics | USBLC6-2SC6 | [Datasheet](https://www.lcsc.com/datasheet/C7519.pdf) | 
+| Crystal | 32MHz | 1 | - | - | [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312080231_NDK-NX2016SA-32MHZ-EXS00A-CS11336_C6134317.pdf) | 
+| Crystals | 32.768kHz | 1 | - | - | [Datasheet](https://jlcpcb.com/partdetail/SeikoEpson-FC_135_32_7680KAA3/C2650472) | 
+| Capacitors | 0201 / 0402 (100nF, 1uF, etc.) | Multiple | Murata | Various | Datasheet | 
+| Resistors | 0201 resistors | Multiple | Panasonic | Various | Datasheet | 
+| Test Pads | Debug & measurement points | 14 | - | - | - | 
 
 
 ## nRF52840 Pin Mapping
