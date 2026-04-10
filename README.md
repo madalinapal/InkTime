@@ -77,6 +77,80 @@ The table below summarizes the main components used in the project. Passive comp
 
 ## Design Log
 
+This section describes the PCB design process, decisions taken during implementation, and how the project complies with the imposed design constraints.
+
+---
+
+###  Placement Strategy
+
+The layout process started with the placement of mechanically constrained and critical components such as:
+- USB-C connector
+- Side buttons
+- E-paper display connector (FPC)
+- nRF52840 microcontroller
+
+These components were positioned according to the mechanical enclosure to ensure proper alignment and usability.
+
+All components were placed exclusively on the **TOP layer**, as required. Passive components (resistors, capacitors) were then distributed around their corresponding ICs, minimizing trace length and ensuring proper decoupling.
+
+Special attention was given to **100nF decoupling capacitors**, which were placed as close as possible to the power pins of each integrated circuit.
+
+---
+
+###  Routing Strategy
+
+Routing was performed on a **4-layer PCB stack-up**, structured as follows:
+- Top Layer – signal routing and component placement
+- Inner Layer 1 – solid ground plane (GND)
+- Inner Layer 2 – power plane (VCC, 3V3, etc.)
+- Bottom Layer – signal routing
+
+The routing process followed a hierarchical approach:
+- Power traces (VCC, VBUS, 3V3) were routed first
+- Signal traces were routed afterwards
+
+Design rules applied:
+- Power traces: **≥ 0.3 mm width** 
+- Signal traces: **≥ 0.15 mm width**
+- No 90° angles were used (only smooth or 45° routing)
+
+The use of internal planes significantly improved power distribution and return paths, reducing noise and ensuring signal integrity.
+
+---
+
+###  Grounding and Planes
+
+A solid grounding strategy was implemented using **polygon pours** on ground layers.
+
+- Ground planes were applied on multiple layers
+- **Via stitching** was used extensively to connect ground planes
+- Increased via density was applied near the RF section
+
+This improves:
+- Signal return paths
+- Noise reduction
+- EMI performance
+
+---
+
+###  RF and Antenna Considerations
+
+The antenna area was treated as a strict keep-out zone:
+- No copper
+- No traces
+- No vias
+
+---
+
+### Component Constraints
+
+All components respect the required footprint rules:
+
+- Resistors: **0201**
+- Capacitors ≤100nF: **0201**
+- Capacitors >100nF: **0402** 
+
+This ensures high-density integration suit
 
 ## Repository contens
 - schematic.sch → Schematic design file  
