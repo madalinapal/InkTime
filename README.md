@@ -38,7 +38,6 @@ The table below summarizes the main components used in the project. Passive comp
 | USB-C Connector | Power & data interface | 1 | Kinghelm | KH-TYPE-C-16P | [Datasheet](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905154556923904) | 
 | FPC Connector | E-paper display connector | 1 | Molex | 503480-2400 |[Datasheet](https://www.molex.com/content/dam/molex/molexdotcom/products/automated/enus/salesdrawingpdf/503/503480/5034802400_sd.pdf?inline)| 
 | Push Buttons | Tactile switches | 3 | Panasonic | EVP-AKE31A | [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2301111010_PANASONIC-EVPAKE31A_C569760.pdf) | 
-| Inductors | Power inductors (various values) | Multiple | TDK / Würth | Various | [Datasheet]() | 
 | MOSFETs | Power switching | 2 | Vishay / Diodes Inc. | SI1308EDL / DMG2305UX | [Datasheet](https://www.lcsc.com/datasheet/C469327.pdf) | 
 | Diodes | Schottky diodes | 3 | ON Semiconductor | MBR0530 | [Datasheet](https://www.lcsc.com/datasheet/C77336.pdf) | 
 | ESD Protection | USB protection | 1 | STMicroelectronics | USBLC6-2SC6 | [Datasheet](https://www.lcsc.com/datasheet/C7519.pdf) | 
