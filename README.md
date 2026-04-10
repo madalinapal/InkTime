@@ -21,6 +21,33 @@ This is an open-hardware wearable based on the nRF52840 microcontroller. It is f
 
 ![Smartwatch exploded view](images/smartwatch_exploded_view.png)
 
+## Bill of Materials (BOM)
+
+The table below summarizes the main components used in the project. Passive components are grouped by type and package to improve readability.
+
+| Component | Description | Qty | Manufacturer | Part Number | Datasheet | JLCPCB / LCSC |
+|----------|------------|-----|--------------|-------------|-----------|----------------|
+| nRF52840 | BLE Microcontroller | 1 | Nordic Semiconductor | nRF52840 | [Datasheet](https://files.seeedstudio.com/wiki/XIAO-BLE/Nano_BLE_MCU-nRF52840_PS_v1.1.pdf) | - |
+| BMA423 | 3-axis accelerometer (IMU) | 1 | Bosch | BMA423 | [Datasheet](https://watchy.sqfmi.com/assets/files/BST-BMA423-DS000-1509600-950150f51058597a6234dd3eaafbb1f0.pdf) | - |
+| BQ25180 | Battery charger / PMIC | 1 | Texas Instruments | BQ25180 | [Datasheet](https://www.ti.com/product/BQ25180) | - |
+| DRV2605L | Haptic driver | 1 | Texas Instruments | DRV2605L | [Datasheet](https://www.ti.com/product/DRV2605L) | - |
+| MAX17048 | Fuel gauge | 1 | Analog Devices | MAX17048G+T10 | [Datasheet](https://www.analog.com/en/products/max17048.html) | - |
+| RT6160 | Buck-boost converter | 1 | Richtek | RT6160AWSC | [Datasheet](https://www.mouser.com/datasheet/2/1458/DS6160A_02-3104604.pdf) | - |
+| 2450AT18B100E | 2.4GHz chip antenna | 1 | Johanson Technology | 2450AT18B100E | Datasheet | - |
+| TC2030-IDC | Programming connector | 1 | Tag-Connect | TC2030-IDC | Datasheet | - |
+| USB-C Connector | Power & data interface | 1 | Kinghelm | KH-TYPE-C-16P | Datasheet | - |
+| FPC Connector | E-paper display connector | 1 | Molex | 503480-2400 | Datasheet | - |
+| Push Buttons | Tactile switches | 3 | Panasonic | EVP-AKE31A | Datasheet | - |
+| Inductors | Power inductors (various values) | Multiple | TDK / Würth | Various | Datasheet | - |
+| MOSFETs | Power switching | 2 | Vishay / Diodes Inc. | SI1308EDL / DMG2305UX | Datasheet | - |
+| Diodes | Schottky diodes | 3 | ON Semiconductor | MBR0530 | Datasheet | - |
+| ESD Protection | USB protection | 1 | STMicroelectronics | USBLC6-2SC6 | Datasheet | - |
+| Crystals | 32MHz & 32.768kHz | 2 | - | - | Datasheet | - |
+| Capacitors | 0201 / 0402 (100nF, 1uF, etc.) | Multiple | Murata | Various | Datasheet | - |
+| Resistors | 0201 resistors | Multiple | Panasonic | Various | Datasheet | - |
+| Test Pads | Debug & measurement points | 14 | - | - | - | - |
+
+
 ## nRF52840 Pin Mapping
 
 | Pin nRF52840 | Signal      | Component | Interface |
