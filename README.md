@@ -26,7 +26,7 @@ This is an open-hardware wearable based on the nRF52840 microcontroller. It is f
 The table below summarizes the main components used in the project. Passive components are grouped by type and package to improve readability.
 
 | Component | Description | Qty | Manufacturer | Part Number | Datasheet | 
-|----------|------------|-----|--------------|-------------|-----------|----------------|
+|----------|------------|-----|--------------|-------------|-----------|
 | nRF52840 | BLE Microcontroller | 1 | Nordic Semiconductor | nRF52840 | [Datasheet](https://files.seeedstudio.com/wiki/XIAO-BLE/Nano_BLE_MCU-nRF52840_PS_v1.1.pdf) | 
 | BMA423 | 3-axis accelerometer (IMU) | 1 | Bosch | BMA423 | [Datasheet](https://watchy.sqfmi.com/assets/files/BST-BMA423-DS000-1509600-950150f51058597a6234dd3eaafbb1f0.pdf) |
 | BQ25180 | Battery charger / PMIC | 1 | Texas Instruments | BQ25180 | [Datasheet](https://www.ti.com/product/BQ25180) |
