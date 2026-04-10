@@ -33,8 +33,8 @@
 <grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="no" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -304,16 +304,6 @@
 <wire x1="-0.858" y1="-1.258" x2="-0.858" y2="0.8" width="0.2" layer="21"/>
 <wire x1="-0.858" y1="0.8" x2="-0.4" y2="1.258" width="0.2" layer="21"/>
 <circle x="-0.858" y="1.258" radius="0.1" width="0.2" layer="25"/>
-</package>
-<package name="ERA-1AEB3401C_0201" library_version="2">
-<smd name="1" x="0" y="0.275" dx="0.35" dy="0.25" layer="1"/>
-<smd name="2" x="0" y="-0.275" dx="0.35" dy="0.25" layer="1"/>
-<polygon width="0.1524" layer="21" pour="solid">
-<vertex x="-0.0763" y="-0.2263"/>
-<vertex x="0.0763" y="-0.2263"/>
-<vertex x="0.0763" y="0.2263"/>
-<vertex x="-0.0763" y="0.2263"/>
-</polygon>
 </package>
 <package name="HECTOR_WATCH_1_TP20R" library_version="32">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
@@ -900,16 +890,6 @@ IPC High Density</description>
 <smd name="1" x="-1.05" y="0.65" dx="1.05" dy="0.5" layer="1"/>
 <smd name="2" x="-1.05" y="-0.65" dx="1.05" dy="0.5" layer="1"/>
 <smd name="3" x="1.05" y="0" dx="1.05" dy="0.5" layer="1"/>
-</package>
-<package name="CPF0201D7K68C1_0201" library_version="4">
-<smd name="1" x="0" y="0.275" dx="0.35" dy="0.25" layer="1"/>
-<smd name="2" x="0" y="-0.275" dx="0.35" dy="0.25" layer="1"/>
-<polygon width="0.1524" layer="21" pour="solid">
-<vertex x="-0.0763" y="-0.2263"/>
-<vertex x="0.0763" y="-0.2263"/>
-<vertex x="0.0763" y="0.2263"/>
-<vertex x="-0.0763" y="0.2263"/>
-</polygon>
 </package>
 <package name="ESP32_C6_LIBRARY_7_JUMPER_SJ" library_version="25">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
@@ -2152,11 +2132,10 @@ Note: annular ring aren't minimal
 <attribute name="MANUFACTURER_PART_NUMBER" value="BQ25180YBGR" x="-26.429509375" y="-3.852759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-BQ25180YBGR" x="-26.429509375" y="-3.852759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25180YBGR?qs=doiCPypUmgEWjAK%252BJAX6Tw%3D%3D" x="-26.429509375" y="-3.852759375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="1.38324375" y="-4.3935375" size="0.3048" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="0.805259375" y="-5.01141875" size="0.3048" layer="25" rot="R180" align="center"/>
 </element>
 <element uuid="0xABCDEF39" name="R9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="CPF0201D7K68C1_0201" override_locally_modified="yes" value="10K" x="0.160334375" y="-4.412678125" smashed="yes" rot="R90">
 <attribute name="NAME" x="0.34463125" y="-3.850078125" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="R9" value="" x="0.75149375" y="-3.87171875" size="0.3048" layer="27" rot="R180" display="name"/>
 </element>
 <element uuid="0xABCDEF15" name="IC9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="RT6160AWSC_BGA15C40P3X5_140X230X60" value="RT6160AWSC" x="-1.094059375" y="-0.946065625" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="-1.094059375" y="-0.946065625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2171,9 +2150,9 @@ Note: annular ring aren't minimal
 </element>
 <element uuid="0xABCDEF62" name="R4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="ERA-1AEB3401C_0201" override_locally_modified="yes" value="0" x="0.2488" y="-1.2269" smashed="yes" rot="R179.9">
 <attribute name="NAME" x="0.5129875" y="-0.4858125" size="0.3048" layer="25" rot="R179.9"/>
-<attribute name="R4" value="" x="0.527528125" y="-0.987934375" size="0.3048" layer="27" rot="R269.9" display="name"/>
 </element>
-<element uuid="0xABCDEF79" name="R2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="ERA-1AEB3401C_0201" value="0" x="2.51823125" y="-2.1188125" smashed="yes" rot="R180">
+<element uuid="0xABCDEF79" name="R2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="ERA-1AEB3401C_0201" override_locally_modified="yes" value="0" x="2.51823125" y="-2.1188125" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.01170625" y="-1.940640625" size="0.3048" layer="25" rot="R270"/>
 <attribute name="R2" value="" x="2.002540625" y="-1.90494375" size="0.3048" layer="27" rot="R270" display="name"/>
 </element>
 <element uuid="0xABCDEF2D" name="TP_3V3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="-9.5183" y="-15.522875" smashed="yes">
@@ -2214,7 +2193,7 @@ Note: annular ring aren't minimal
 <attribute name="MANUFACTURER_PART_NUMBER" value="BMA423" x="4.110059375" y="-10.741828125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="262-BMA423" x="4.110059375" y="-10.741828125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA423?qs=HXFqYaX1Q2xC%252BSgeGoX3mg%3D%3D" x="4.110059375" y="-10.741828125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.502496875" y="-13.056421875" size="0.3048" layer="25" align="center"/>
+<attribute name="NAME" x="5.362984375" y="-11.9003875" size="0.3048" layer="25" align="center"/>
 </element>
 <element uuid="0xABCDEF47" name="R3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="ERA-1AEB3401C_0201" override_locally_modified="yes" value="0" x="2.83723125" y="-8.47346875" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.49294375" y="-8.98935625" size="0.3048" layer="25"/>
@@ -2290,99 +2269,97 @@ Note: annular ring aren't minimal
 <attribute name="C38" value="" x="-0.257859375" y="-8.9408" size="0.3048" layer="27" display="name"/>
 <attribute name="NAME" x="-0.25736875" y="-8.9230875" size="0.3048" layer="25"/>
 </element>
-<element name="C37" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="GRM011R60J152KE01L_1_0201" value="1uF" x="-0.998559375" y="-5.66906875" smashed="yes" rot="R90">
-<attribute name="C37" value="" x="-1.463940625" y="-6.323253125" size="0.3048" layer="27" rot="R90" display="name"/>
+<element uuid="0xABCDEFD7" name="C37" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="GRM011R60J152KE01L_1_0201" value="1uF" x="-0.998559375" y="-5.66906875" smashed="yes" rot="R90">
 <attribute name="NAME" x="-0.71309375" y="-5.1448125" size="0.3048" layer="25" rot="R180"/>
 </element>
-<element name="C23" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="GRM011R60J152KE01L_1_0201" value="0.1uF" x="-1.0238875" y="-3.313134375" smashed="yes" rot="R90">
-<attribute name="C23" value="" x="0.1798" y="-3.16975625" size="0.3048" layer="27" rot="R180" display="name"/>
+<element uuid="0xABCDEFD1" name="C23" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="GRM011R60J152KE01L_1_0201" value="0.1uF" x="-1.0238875" y="-3.313134375" smashed="yes" rot="R90">
 <attribute name="NAME" x="-0.618109375" y="-2.7716875" size="0.3048" layer="25" rot="R180"/>
 </element>
 <element uuid="0xABCDEF3B" name="C39" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="10uF" x="-2.25961875" y="-7.10038125" smashed="yes" rot="R90">
 <attribute name="NAME" x="-1.59509375" y="-8.165465625" size="0.3048" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="C24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="10uF" x="-1.3216875" y="-4.045434375" smashed="yes" rot="R180">
+<element uuid="0xABCDEF99" name="C24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="10uF" x="-1.3216875" y="-4.045434375" smashed="yes" rot="R180">
 <attribute name="NAME" x="-2.717559375" y="-3.7413" size="0.3048" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="22uF" x="-0.689546875" y="1.71310625" smashed="yes">
+<element uuid="0xABCDEFA1" name="C25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="22uF" x="-0.689546875" y="1.71310625" smashed="yes">
 <attribute name="NAME" x="-0.413921875" y="2.454109375" size="0.3048" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="C33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="22uF" x="-0.64858125" y="3.317775" smashed="yes">
+<element uuid="0xABCDEFA3" name="C33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="22uF" x="-0.64858125" y="3.317775" smashed="yes">
 <attribute name="NAME" x="-1.345753125" y="3.976103125" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C19" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="6.557965625" y="-10.58311875" smashed="yes" rot="R270">
+<element uuid="0xABCDEFAD" name="C19" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="6.557965625" y="-10.58311875" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.294503125" y="-11.96084375" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="8.747321875" y="-2.0092125" smashed="yes">
+<element uuid="0xABCDEF9F" name="C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="8.747321875" y="-2.0092125" smashed="yes">
 <attribute name="NAME" x="9.78504375" y="-2.654571875" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C21" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="2.395575" y="-7.34606875" smashed="yes" rot="R270">
+<element uuid="0xABCDEF95" name="C21" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="2.395575" y="-7.34606875" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.953896875" y="-7.034440625" size="0.3048" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="13.086596875" y="-1.325715625" smashed="yes">
+<element uuid="0xABCDEF9D" name="C8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="13.086596875" y="-1.325715625" smashed="yes">
 <attribute name="NAME" x="13.13424375" y="-0.77015625" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="820pF" x="14.5879" y="0.713146875" smashed="yes">
-<attribute name="NAME" x="14.011309375" y="1.251321875" size="0.3048" layer="25" ratio="10"/>
+<element uuid="0xABCDEF83" name="C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="820pF" x="14.5879" y="0.713146875" smashed="yes">
+<attribute name="NAME" x="14.753203125" y="-0.047334375" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="1pF" x="15.399334375" y="2.4989125" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.995625" y="3.58053125" size="0.3048" layer="25" ratio="10"/>
+<element uuid="0xABCDEF81" name="C3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="1pF" x="15.399334375" y="2.4989125" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.287084375" y="1.30125625" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="1pF" x="17.947921875" y="2.462575" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.144565625" y="3.524340625" size="0.3048" layer="25" ratio="10"/>
+<element uuid="0xABCDEF85" name="C4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="1pF" x="17.947921875" y="2.462575" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.800115625" y="1.2450625" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C22" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="N.C." x="16.7246" y="2.453115625" smashed="yes" rot="R269.4">
-<attribute name="NAME" x="16.42619375" y="3.530475" size="0.3048" layer="25" ratio="10" rot="R359.4"/>
+<element uuid="0xABCDEF87" name="C22" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="N.C." x="16.7246" y="2.453115625" smashed="yes" rot="R269.4">
+<attribute name="NAME" x="16.399696875" y="1.224696875" size="0.3048" layer="25" ratio="10" rot="R359.4"/>
 </element>
-<element name="C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="12pF" x="13.122828125" y="4.39341875" smashed="yes" rot="R270">
+<element uuid="0xABCDEF89" name="C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="12pF" x="13.122828125" y="4.39341875" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.759021875" y="5.4521125" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="12pF" x="14.273009375" y="7.260053125" smashed="yes" rot="R180">
+<element uuid="0xABCDEF8D" name="C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="12pF" x="14.273009375" y="7.260053125" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.790209375" y="8.08404375" size="0.3048" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="N.C." x="5.423321875" y="11.798378125" smashed="yes" rot="R180">
+<element uuid="0xABCDEFB9" name="C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="N.C." x="5.423321875" y="11.798378125" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.061825" y="12.168140625" size="0.3048" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100pF" x="12.953853125" y="11.297071875" smashed="yes" rot="R90">
+<element uuid="0xABCDEFB3" name="C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100pF" x="12.953853125" y="11.297071875" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.2951625" y="12.664909375" size="0.3048" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="10.57459375" y="6.276790625" smashed="yes">
+<element uuid="0xABCDEF8F" name="C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="10.57459375" y="6.276790625" smashed="yes">
 <attribute name="NAME" x="10.3882875" y="6.83406875" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C13" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="N.C." x="10.1544125" y="14.28615625" smashed="yes">
+<element uuid="0xABCDEFB7" name="C13" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="N.C." x="10.1544125" y="14.28615625" smashed="yes">
 <attribute name="NAME" x="9.9926125" y="14.77396875" size="0.3048" layer="25" ratio="10"/>
 </element>
-<element name="C14" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="11.790684375" y="11.367934375" smashed="yes" rot="R90">
+<element uuid="0xABCDEFB1" name="C14" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="11.790684375" y="11.367934375" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.144340625" y="12.747853125" size="0.3048" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="5.06261875" y="6.633903125" smashed="yes" rot="R90">
+<element uuid="0xABCDEFA7" name="C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="100nF" x="5.06261875" y="6.633903125" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.241528125" y="7.972565625" size="0.3048" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="C17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="12pF" x="1.50863125" y="3.793403125" smashed="yes">
+<element uuid="0xABCDEFAB" name="C17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="12pF" x="1.50863125" y="3.793403125" smashed="yes">
 <attribute name="NAME" x="2.892671875" y="3.42124375" size="0.3048" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="C18" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="12pF" x="3.756696875" y="-3.136878125" smashed="yes" rot="R90">
+<element uuid="0xABCDEF9B" name="C18" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="12pF" x="3.756696875" y="-3.136878125" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.221696875" y="-3.771878125" size="0.3048" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="C20" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="4.38499375" y="-7.93805625" smashed="yes" rot="R270">
+<element uuid="0xABCDEFA5" name="C20" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="4.38499375" y="-7.93805625" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.79239375" y="-7.620525" size="0.3048" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="-2.75331875" y="2.24988125" smashed="yes" rot="R180">
+<element uuid="0xABCDEFAF" name="C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="-2.75331875" y="2.24988125" smashed="yes" rot="R180">
 <attribute name="C6" value="" x="-3.90926875" y="2.61294375" size="0.3048" layer="27" rot="R270" display="name"/>
 </element>
 <element uuid="0xABCDEF35" name="L2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_2_RESC0402_L" value="10uH" x="5.9045625" y="10.73335625" smashed="yes">
 <attribute name="NAME" x="4.93750625" y="10.494996875" size="0.3048" layer="25" rot="R90"/>
 </element>
-<element name="L3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_2_RESC0402_L" value="15nH" x="7.056184375" y="14.295259375" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.886925" y="15.242525" size="0.3048" layer="25" rot="R358.9"/>
+<element uuid="0xABCDEFBF" name="L3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_2_RESC0402_L" value="15nH" x="7.056184375" y="14.295259375" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.780940625" y="15.613571875" size="0.3048" layer="25" rot="R358.9"/>
 </element>
-<element name="L1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_2_RESC0402_L" value="3.9nH" x="18.372521875" y="4.577290625" smashed="yes">
-<attribute name="NAME" x="17.603059375" y="5.08989375" size="0.3048" layer="25"/>
+<element uuid="0xABCDEF8B" name="L1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_2_RESC0402_L" value="3.9nH" x="18.372521875" y="4.577290625" smashed="yes">
+<attribute name="NAME" x="17.576565625" y="5.56695" size="0.3048" layer="25"/>
 </element>
-<element name="C15" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="1.0uF" x="5.426659375" y="13.223315625" smashed="yes">
+<element uuid="0xABCDEFBB" name="C15" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="1.0uF" x="5.426659375" y="13.223315625" smashed="yes">
 <attribute name="NAME" x="4.36541875" y="12.812840625" size="0.3048" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="C16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="47nF" x="5.38379375" y="14.650625" smashed="yes" rot="R180">
+<element uuid="0xABCDEFB5" name="C16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="47nF" x="5.38379375" y="14.650625" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.145925" y="15.51185" size="0.3048" layer="25" ratio="10" rot="R180"/>
 </element>
 <element uuid="0xABCDEF34" name="J2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="TC2030-IDC_TC2030IDC" value="TC2030-IDC" x="-11.512275" y="11.539053125" smashed="yes" rot="R180">
@@ -2402,7 +2379,7 @@ Note: annular ring aren't minimal
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="-3.98165625" y="4.389740625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-3.98165625" y="4.389740625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="MBR0530" x="-3.98165625" y="4.389740625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-5.754534375" y="6.2733" size="0.3048" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="-5.0391375" y="5.531209375" size="0.3048" layer="25" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="SOD-123-2 ON Semiconductor" x="-3.98165625" y="4.389740625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-3.98165625" y="4.389740625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-3.98165625" y="4.389740625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2414,7 +2391,7 @@ Note: annular ring aren't minimal
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="-9.08703125" y="3.683521875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-9.08703125" y="3.683521875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="MBR0530" x="-9.08703125" y="3.683521875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-7.887446875" y="5.587409375" size="0.3048" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="-8.1524125" y="4.95133125" size="0.3048" layer="25" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="SOD-123-2 ON Semiconductor" x="-9.08703125" y="3.683521875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-9.08703125" y="3.683521875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-9.08703125" y="3.683521875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2426,16 +2403,16 @@ Note: annular ring aren't minimal
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="-9.1408" y="0.251365625" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-9.1408" y="0.251365625" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="MBR0530" x="-9.1408" y="0.251365625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.00061875" y="-1.617803125" size="0.3048" layer="25" align="center"/>
+<attribute name="NAME" x="-8.29893125" y="-0.92871875" size="0.3048" layer="25" align="center"/>
 <attribute name="PACKAGE" value="SOD-123-2 ON Semiconductor" x="-9.1408" y="0.251365625" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-9.1408" y="0.251365625" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-9.1408" y="0.251365625" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="-9.1408" y="0.251365625" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2-EP-DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF/25V" x="-6.093540625" y="1.6426375" smashed="yes" rot="R270">
+<element uuid="0xABCDEFBD" name="C2-EP-DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF/25V" x="-6.093540625" y="1.6426375" smashed="yes" rot="R270">
 <attribute name="NAME" x="-5.6267" y="2.61416875" size="0.3048" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C1-EP-DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="10uF" x="-12.2302875" y="-2.280834375" smashed="yes" rot="R270">
+<element uuid="0xABCDEF91" name="C1-EP-DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="10uF" x="-12.2302875" y="-2.280834375" smashed="yes" rot="R270">
 <attribute name="NAME" x="-13.355075" y="-1.214853125" size="0.254" layer="25" ratio="10"/>
 </element>
 <element uuid="0xABCDEF0E" name="L5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="ESP32_C6_LIBRARY_2_IND_4828-WE-TPC_WRE" value="68uH" x="-5.45625625" y="-5.234975" smashed="yes" rot="R90">
@@ -2487,7 +2464,7 @@ Note: annular ring aren't minimal
 <attribute name="HEIGHT" value="0.625mm" x="14.989875" y="-11.91815625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="14.989875" y="-11.91815625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="DRV2605YZFR" x="14.989875" y="-11.91815625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="13.62205" y="-14.05985" size="0.6096" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="13.8412875" y="-13.44196875" size="0.6096" layer="25" rot="R180" align="center"/>
 </element>
 <element uuid="0xABCDEF3D" name="TP_OP" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="14.48785" y="-16.17161875" smashed="yes">
 <attribute name="NAME" x="13.858678125" y="-17.49516875" size="0.3048" layer="25"/>
@@ -2573,13 +2550,13 @@ Note: annular ring aren't minimal
 <attribute name="DESCRIPTION" value=" 3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge " x="14.989371875" y="-8.61535" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Analog Devices" x="14.989371875" y="-8.61535" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="MAX17048G+T10" x="14.989371875" y="-8.61535" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.2755" y="-6.86390625" size="0.6096" layer="25"/>
+<attribute name="NAME" x="13.056265625" y="-7.322334375" size="0.6096" layer="25"/>
 <attribute name="PACKAGE" value="TDFN-8 Maxim" x="14.989371875" y="-8.61535" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="14.989371875" y="-8.61535" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&amp;manufacturer=Analog Devices&amp;part_name=MAX17048G+T10&amp;search_term=None" x="14.989371875" y="-8.61535" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap" x="14.989371875" y="-8.61535" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C27" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="GRM011R60J152KE01L_1_0201" value="0.1uF" x="15.49159375" y="-6.89413125" smashed="yes" rot="R270">
+<element uuid="0xABCDEFD5" name="C27" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="GRM011R60J152KE01L_1_0201" value="0.1uF" x="15.49159375" y="-6.89413125" smashed="yes" rot="R270">
 </element>
 <element uuid="0xABCDEF25" name="TP_VBAT" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="18.22888125" y="-5.8211" smashed="yes">
 <attribute name="NAME" x="19.62094375" y="-6.6997" size="0.3048" layer="25" rot="R90"/>
@@ -2615,13 +2592,15 @@ Note: annular ring aren't minimal
 <attribute name="PRICE" value="None" x="0.677921875" y="6.146371875" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=snap" x="0.677921875" y="6.146371875" size="1.778" layer="27" display="off"/>
 </element>
-<element uuid="0xABCDEF77" name="R2_USB" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="CPF0201D7K68C1_0201" value="5K1" x="-3.084384375" y="8.654721875" smashed="yes" rot="R270">
+<element uuid="0xABCDEF77" name="R2_USB" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="CPF0201D7K68C1_0201" override_locally_modified="yes" value="5K1" x="-3.084384375" y="8.654721875" smashed="yes" rot="R270">
+<attribute name="NAME" x="-3.059325" y="8.1304" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="R2_USB" value="" x="-3.8767875" y="8.126340625" size="0.3048" layer="27" display="name"/>
 </element>
-<element uuid="0xABCDEF75" name="R1_USB" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="CPF0201D7K68C1_0201" value="5K1" x="0.312678125" y="8.580115625" smashed="yes" rot="R270">
+<element uuid="0xABCDEF75" name="R1_USB" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.llfh-e4PSWuEETXIBYBB7A" package="CPF0201D7K68C1_0201" override_locally_modified="yes" value="5K1" x="0.312678125" y="8.580115625" smashed="yes" rot="R270">
+<attribute name="NAME" x="0.3541125" y="8.055790625" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="R1_USB" value="" x="-0.4475125" y="8.056571875" size="0.3048" layer="27" display="name"/>
 </element>
-<element name="C43" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="3.366784375" y="8.55319375" smashed="yes">
+<element uuid="0xABCDEFA9" name="C43" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="PERFECT_0402_0402" value="4.7uF" x="3.366784375" y="8.55319375" smashed="yes">
 <attribute name="NAME" x="4.820846875" y="9.4004" size="0.3048" layer="25" ratio="10" rot="R180"/>
 </element>
 <element uuid="0xABCDEF10" name="J1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="503480-2400_5034802400" value="503480-2400" x="-16.632275" y="-1.25785625" smashed="yes" rot="R270">
@@ -2633,34 +2612,34 @@ Note: annular ring aren't minimal
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Molex/503480-2400?qs=OAhjpuo3Vu7efIoxFh9AOw%3D%3D" x="-16.632275" y="-1.25785625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-17.4623875" y="-8.61324375" size="0.6096" layer="25" align="center"/>
 </element>
-<element name="EPD_C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.339590625" y="-4.492421875" smashed="yes" rot="R180">
+<element uuid="0xABCDEF97" name="EPD_C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.339590625" y="-4.492421875" smashed="yes" rot="R180">
 <attribute name="NAME" x="-14.261434375" y="-4.5833" size="0.254" layer="25"/>
 </element>
-<element name="EPD_C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.35333125" y="-5.5213125" smashed="yes" rot="R181">
+<element uuid="0xABCDEFD3" name="EPD_C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.35333125" y="-5.5213125" smashed="yes" rot="R181">
 <attribute name="NAME" x="-14.29415625" y="-5.427925" size="0.254" layer="25" rot="SR1"/>
 </element>
-<element name="EPD_C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="0.1uF/50V" x="-12.32" y="0.587128125" smashed="yes">
+<element uuid="0xABCDEF93" name="EPD_C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="0.1uF/50V" x="-12.32" y="0.587128125" smashed="yes">
 <attribute name="NAME" x="-14.2771" y="0.528640625" size="0.254" layer="25"/>
 </element>
-<element name="EPD_C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.328596875" y="1.307153125" smashed="yes">
+<element uuid="0xABCDEF6D" name="EPD_C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.328596875" y="1.307153125" smashed="yes">
 <attribute name="NAME" x="-14.284803125" y="1.3092" size="0.254" layer="25"/>
 </element>
-<element name="EPD_C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.3114" y="2.009978125" smashed="yes">
+<element uuid="0xABCDEF6F" name="EPD_C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.3114" y="2.009978125" smashed="yes">
 <attribute name="NAME" x="-14.28778125" y="1.908578125" size="0.254" layer="25"/>
 </element>
-<element name="EPD_C8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.32" y="2.73" smashed="yes">
+<element uuid="0xABCDEF69" name="EPD_C8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.32" y="2.73" smashed="yes">
 <attribute name="NAME" x="-14.2914" y="2.614296875" size="0.254" layer="25"/>
 </element>
-<element name="EPD_C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.311396875" y="3.484428125" smashed="yes">
+<element uuid="0xABCDEF6B" name="EPD_C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.311396875" y="3.484428125" smashed="yes">
 <attribute name="NAME" x="-14.255084375" y="3.397334375" size="0.254" layer="25"/>
 </element>
 <element uuid="0xABCDEF16" name="EPD_C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.29390625" y="4.25026875" smashed="yes">
 <attribute name="NAME" x="-14.451215625" y="4.19178125" size="0.254" layer="25"/>
 </element>
-<element name="EPD_C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.304246875" y="5.08554375" smashed="yes">
+<element uuid="0xABCDEF65" name="EPD_C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.304246875" y="5.08554375" smashed="yes">
 <attribute name="NAME" x="-14.4203125" y="5.02705625" size="0.254" layer="25"/>
 </element>
-<element name="EPD_C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.294196875" y="5.87286875" smashed="yes">
+<element uuid="0xABCDEF64" name="EPD_C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="NORDIC_NRF_3_RESC0201_L" value="1uF/50V" x="-12.294196875" y="5.87286875" smashed="yes">
 <attribute name="NAME" x="-12.870525" y="5.9493" size="0.254" layer="25" rot="R180"/>
 </element>
 <element uuid="0xABCDEF23" name="TP_ON" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.s9pZV0XdSHmKmdDjgWzDfQ" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="11.885296875" y="-10.753803125" smashed="yes">
@@ -2827,7 +2806,7 @@ Note: annular ring aren't minimal
 <contactref element="EPD_C12" pad="1"/>
 <contactref element="C42" pad="2"/>
 <contactref element="C43" pad="2"/>
-<polygon width="0.3" layer="2" spacing="1.27" pour="solid" thermals="yes">
+<polygon width="0.3" layer="2" spacing="1.27" pour="solid" thermals="yes" locked="yes">
 <vertex x="-10.624084375" y="-16.301925"/>
 <vertex x="-10.601246875" y="-16.35705625"/>
 <vertex x="-10.601246875" y="-17.43035625"/>
@@ -5680,6 +5659,10 @@ with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
