@@ -36,7 +36,7 @@ The table below summarizes the main components used in the project. Passive comp
 | 2450AT18B100E | 2.4GHz chip antenna | 1 | Johanson Technology | 2450AT18B100E | [Datasheet](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588940948130156544) |
 | TC2030-IDC | Programming connector | 1 | Tag-Connect | TC2030-IDC | [Datasheet](https://www.lcsc.com/datasheet/C5444772.pdf) | 
 | USB-C Connector | Power & data interface | 1 | Kinghelm | KH-TYPE-C-16P | [Datasheet](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905154556923904) | 
-| FPC Connector | E-paper display connector | 1 | Molex | 503480-2400 | [Datasheet](https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/503/503480/5034802400_sd.pdf?inline\) | 
+| FPC Connector | E-paper display connector | 1 | Molex | 503480-2400 | [Datasheet](https://www.molex.com/content/dam/molex/molexdotcom/products/automated/enus/salesdrawingpdf/503/503480/5034802400_sd.pdf?inline\) | 
 | Push Buttons | Tactile switches | 3 | Panasonic | EVP-AKE31A | [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2301111010_PANASONIC-EVPAKE31A_C569760.pdf) | 
 | Inductors | Power inductors (various values) | Multiple | TDK / Würth | Various | [Datasheet]() | 
 | MOSFETs | Power switching | 2 | Vishay / Diodes Inc. | SI1308EDL / DMG2305UX | [Datasheet](https://www.lcsc.com/datasheet/C469327.pdf) | 
