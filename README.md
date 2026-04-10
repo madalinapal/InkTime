@@ -36,17 +36,14 @@ The table below summarizes the main components used in the project. Passive comp
 | 2450AT18B100E | 2.4GHz chip antenna | 1 | Johanson Technology | 2450AT18B100E | [Datasheet](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588940948130156544) |
 | TC2030-IDC | Programming connector | 1 | Tag-Connect | TC2030-IDC | [Datasheet](https://www.lcsc.com/datasheet/C5444772.pdf) | 
 | USB-C Connector | Power & data interface | 1 | Kinghelm | KH-TYPE-C-16P | [Datasheet](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905154556923904) | 
-| FPC Connector | E-paper display connector | 1 | Molex | 503480-2400 | [Datasheet](https://www.molex.com/content/dam/molex/molexdotcom/products/automated/enus/salesdrawingpdf/503/503480/5034802400_sd.pdf?inline\) | 
+| FPC Connector | E-paper display connector | 1 | Molex | 503480-2400 |[Datasheet](https://www.molex.com/content/dam/molex/molexdotcom/products/automated/enus/salesdrawingpdf/503/503480/5034802400_sd.pdf?inline)| 
 | Push Buttons | Tactile switches | 3 | Panasonic | EVP-AKE31A | [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2301111010_PANASONIC-EVPAKE31A_C569760.pdf) | 
 | Inductors | Power inductors (various values) | Multiple | TDK / Würth | Various | [Datasheet]() | 
 | MOSFETs | Power switching | 2 | Vishay / Diodes Inc. | SI1308EDL / DMG2305UX | [Datasheet](https://www.lcsc.com/datasheet/C469327.pdf) | 
 | Diodes | Schottky diodes | 3 | ON Semiconductor | MBR0530 | [Datasheet](https://www.lcsc.com/datasheet/C77336.pdf) | 
 | ESD Protection | USB protection | 1 | STMicroelectronics | USBLC6-2SC6 | [Datasheet](https://www.lcsc.com/datasheet/C7519.pdf) | 
-| Crystal | 32MHz | 1 | - | - | [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312080231_NDK-NX2016SA-32MHZ-EXS00A-CS11336_C6134317.pdf) | 
-| Crystals | 32.768kHz | 1 | - | - | [Datasheet](https://jlcpcb.com/partdetail/SeikoEpson-FC_135_32_7680KAA3/C2650472) | 
-| Capacitors | 0201 / 0402 (100nF, 1uF, etc.) | Multiple | Murata | Various | Datasheet | 
-| Resistors | 0201 resistors | Multiple | Panasonic | Various | Datasheet | 
-| Test Pads | Debug & measurement points | 14 | - | - | - | 
+| Crystal | 32MHz | 1 | NDK | NX2016SA-32MHZ-EXS00A-CS11336 | [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312080231_NDK-NX2016SA-32MHZ-EXS00A-CS11336_C6134317.pdf) | 
+| Crystals | 32.768kHz | 1 | Seiko Epson | FC-135 32.7680KA-A3 | [Datasheet](https://jlcpcb.com/partdetail/SeikoEpson-FC_135_32_7680KAA3/C2650472) | 
 
 
 ## nRF52840 Pin Mapping
