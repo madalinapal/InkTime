@@ -148,7 +148,19 @@ All components respect the required footprint rules:
 
 - Resistors: **0201**
 - Capacitors ≤100nF: **0201**
-- Capacitors >100nF: **0402** 
+- Capacitors >100nF: **0402**
+  
+## Design Rule Exceptions (Accepted)
+
+**Trace Width (accepted):**  
+Power nets (3V3, VREG, VBAT, VBUS) follow the 0.3 mm rule, but in dense areas around the nRF52840 and tightly packed components, traces are locally reduced due to limited space. These segments are short and were accepted after verification.
+
+**Copper Clearance (accepted):**  
+The minimum clearance rule (0.15 mm) is slightly violated in congested regions, especially near the nRF52840 and 0201 components. All cases were manually checked to ensure no shorts.
+
+**Board Edge Clearance (accepted):**  
+The USB-C connector (J4) and buttons (SW_UP, SW_DN, SW_ENT) extend beyond the PCB edge for enclosure alignment. This is intentional.
+
 
 This ensures high-density integration suit
 
